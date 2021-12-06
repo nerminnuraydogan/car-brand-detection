@@ -23,6 +23,8 @@ To run:
     ```
     This will start detecting car brands in that video, in the end, it'll save the resulting video to `output_video/mercedes.avi`
 
+![photo](https://user-images.githubusercontent.com/46245117/144905134-a7edfffa-a359-4dbb-9087-8954800137a2.PNG)
+
 #### Class Names
 
 Following car brands are used to detect in this project.
@@ -41,6 +43,15 @@ Following car brands are used to detect in this project.
 #### Dataset
 
 The dataset is reconstructed from the [Stanford AI Lab - Cars Dataset](https://www.kaggle.com/jessicali9530/stanford-cars-dataset) by preprocessing properly to make it convertible to YOLO format.
+
+#### Technical Details
+
+This project is developed using darknet framework and conda environment with following hardware and software configurations: 
+
+- GPU - Nvidia GeForce GTX 1660 Ti 6 GB
+- CUDA -  v11.3
+- cudnn -  v8.2.0
+- OPENCV - v4.5.1
 
 #### Demo
 
