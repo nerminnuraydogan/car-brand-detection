@@ -21,7 +21,7 @@ To run:
     ```
     python vid_yolo_opencv.py
     ```
-This will start detecting car brands in that video, in the end, it'll save the resulting video to `output_video/mercedes.avi`
+    This will start detecting car brands in that video, in the end, it'll save the resulting video to `output_video/mercedes.avi`
 
 #### Class Names
 
@@ -40,8 +40,12 @@ Following car brands are used to detect in this project.
 
 #### Dataset
 
-The dataset is reconstructed from the [Stanford AI Lab - Cars Dataset](https://www.kaggle.com/jessicali9530/stanford-cars-dataset) and is available through [drive link](https://drive.google.com/drive/folders/1miohyA7Kn8hheF4j5kzUWEvvLZww37pc?usp=sharing)
+The dataset is reconstructed from the [Stanford AI Lab - Cars Dataset](https://www.kaggle.com/jessicali9530/stanford-cars-dataset) by preprocessing properly to make it convertible to YOLO format.
 
 #### Demo
 
+Watch the demo below.
 [![Watch the demo](https://user-images.githubusercontent.com/46245117/144743208-77b24a43-0961-4c85-8c30-16d74c115874.PNG)](https://youtu.be/MkEgz57MWkw)
+
+
+
